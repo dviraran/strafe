@@ -276,7 +276,7 @@ if __name__ == '__main__':
     n_epochs_pretrain = 30
     update_mod = 35  # update every update_mod batches
 
-    # ********************* Survival Architecture *******************************************************
+    # ********************* Risk Architecture *******************************************************
     c = copy.deepcopy
     # survival_architecture_parameters:
     sap = {"num_heads": 1, "d_model": 128, "drop_prob": 0.3, "num_features": embedding_dim, "N": 1, "d_ff": 128}
