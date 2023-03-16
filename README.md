@@ -13,15 +13,15 @@ STRAFE is designed to provide better accuracy and interpretability than other mo
 
 ## Documentation
 
-Most of the scripts and code in this repository were taken from the omop-learn package: github.com/clinicalml/omop-learn. Every function that differs from the original is marked with the comment "# Changed" before the function definition. More detailed documentation and summaries for most of the code can be found in the omop-learn package.
+Most of the scripts and code in this repository were taken from the omop-learn package: https://github.com/clinicalml/omop-learn. Every function that differs from the original is marked with the comment "# Changed" before the function definition. More detailed documentation and summaries for most of the code can be found in the omop-learn package.
 
 The following files are included in this repository:
 
-prediction_preprocess.py: reads information from a cohort, creates a feature set, and saves datasets for further analysis (risk/surv).
-risk.py: runs SARD and logistic regression models for risk prediction.
-surv.py: runs STRAFE, DeepHit, and RSF for time-to-event prediction and risk prediction as described in the paper.
-survival.py: transformer-based Kaplan-Meier estimator (Hu et al.)
-sql/Cohorts/cohort_survival.py: implementation of the cohort defined in the paper.
+- prediction_preprocess.py: reads information from a cohort, creates a feature set, and saves datasets for further analysis (risk/surv).
+- risk.py: runs SARD and logistic regression models for risk prediction.
+- surv.py: runs STRAFE, DeepHit, and RSF for time-to-event prediction and risk prediction as described in the paper.
+- survival.py: transformer-based Kaplan-Meier estimator (Hu et al.)
+- sql/Cohorts/cohort_survival.py: implementation of the cohort defined in the paper.
 
 ## Running example
 
