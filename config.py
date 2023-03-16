@@ -2,9 +2,8 @@
 DB_NAME = '****'
 PG_USERNAME = '****'
 PG_PASSWORD = '****'
-# 614b4ffe9c1992068d618404
 # Schemas
-OMOP_CDM_SCHEMA = 'omop_all'  # schema holding standard OMOP tables   cur options: SmallSynpuf or bigsynpuf
+OMOP_CDM_SCHEMA = 'omop_all'  # schema holding standard OMOP tables  
 CDM_AUX_SCHEMA = 'cdm_aux'  # schema to hold auxilliary tables not tied to a particular schema
 CDM_VERSION = 'v6'  # set to 'v5.x.x' if on v5
 
@@ -23,6 +22,5 @@ user_schema = 'eol_cohort_comparison'
 
 #HOST = 'localhost'
 HOST = '****'
-#HOST = 'localhost'
 DIALECT = 'postgresql'
 DRIVER = 'psycopg2'
